@@ -91,7 +91,7 @@ do -- Library
 		Connections = {};
 		UIKey = Enum.KeyCode.End;
 		ScreenGUI = nil;
-		FSize = 10;
+		FSize = 14;
 		UIFont = nil;
 		SettingsPage = nil;
 		VisValues = {};
