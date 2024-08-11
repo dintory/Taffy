@@ -26,7 +26,8 @@ do
 
 	writefile("menu_font.font", game:GetService("HttpService"):JSONEncode(smallest_pixel))
 
-	getgenv().menu_font = Font.new(getcustomasset("menu_font.font"), Enum.FontWeight.Regular)
+	getgenv().menu_font = Enum.Font.Code
+
 end; 
 
 do -- Library
@@ -91,7 +92,7 @@ do -- Library
 		Connections = {};
 		UIKey = Enum.KeyCode.End;
 		ScreenGUI = nil;
-		FSize = 16;
+		FSize = 14;
 		UIFont = nil;
 		SettingsPage = nil;
 		VisValues = {};
