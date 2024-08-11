@@ -10,7 +10,7 @@ local Tick = tick()
 -- Custom Fonts
 do 
 	-- 
-	writefile("smallest_pixel.ttf",game:HttpGet("https://github.com/dintory/Taffy/blob/main/ProggyTiny.ttf"))
+	writefile("smallest_pixel.ttf",game:HttpGet("https://github.com/dintory/Taffy/blob/main/IBMPlexMono-Regular.ttf"))
 	-- 
 	local smallest_pixel = {
 		name = "SmallestPixel7",
@@ -26,7 +26,7 @@ do
 
 	writefile("menu_font.font", game:GetService("HttpService"):JSONEncode(smallest_pixel))
 
-	getgenv().menu_font = Enum.Font.Code
+	getgenv().menu_font = Font.new(getcustomasset("menu_font.font"), Enum.FontWeight.Regular)
 
 end; 
 
