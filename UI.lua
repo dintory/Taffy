@@ -784,7 +784,7 @@ do -- Library
 
 			local ResizeButton = Instance.new("TextButton")
 			ResizeButton.Name = "ResizeButton"
-			ResizeButton.FontFace = menu_font
+			ResizeButton.Font = Enum.Font.Code
 			ResizeButton.Text = ""
 			ResizeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			ResizeButton.TextSize = 7
@@ -880,7 +880,7 @@ do -- Library
 				Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Name.BorderSizePixel = 0
 				Name.Size = UDim2.new(1,0,0,24)
-				Name.FontFace = menu_font
+				Name.Font = Enum.Font.Code
 				Name.Text = "Keybinds"
 				Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Name.TextSize = 12.000
@@ -961,7 +961,7 @@ do -- Library
 					KName.BorderSizePixel = 0
 					KName.Position = UDim2.new(0.5, 0, -1.85000002, 0)
 					KName.Size = UDim2.new(0, 0, 0, 0)
-					KName.FontFace = menu_font
+					KName.Font = Enum.Font.Code
 					KName.Text = "Failed to update text..."
 					KName.TextColor3 = Library.Accent
 					KName.TextSize = 12.000
@@ -1009,7 +1009,7 @@ do -- Library
 			
 			local NewTab = Instance.new("TextButton")
 			NewTab.Name = "NewTab"
-			NewTab.FontFace = menu_font
+			NewTab.Font = Enum.Font.Code
 			NewTab.Text = ""
 			NewTab.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewTab.TextSize = 7
@@ -1033,7 +1033,7 @@ do -- Library
 
 			local Name = Instance.new("TextLabel")
 			Name.Name = "Name"
-			Name.FontFace = menu_font
+			Name.Font = Enum.Font.Code
 			Name.Text = Page.Name
 			Name.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Name.TextSize = Library.FSize
@@ -1171,7 +1171,7 @@ do -- Library
 
 			local SectionName = Instance.new("TextLabel")
 			SectionName.Name = "SectionName"
-			SectionName.FontFace = menu_font
+			SectionName.Font = Enum.Font.Code
 			SectionName.Text = Section.Name
 			SectionName.TextColor3 = Color3.fromRGB(200, 200, 200)
 			SectionName.TextSize = Library.FSize
@@ -1284,7 +1284,7 @@ do -- Library
 				
 				local SectionName = Instance.new("TextButton")
 				SectionName.Name = "SectionName"
-				SectionName.FontFace = menu_font
+				SectionName.Font = Enum.Font.Code
 				SectionName.Text = V
 				SectionName.TextColor3 = Color3.fromRGB(200, 200, 200)
 				SectionName.TextSize = Library.FSize
@@ -1407,7 +1407,7 @@ do -- Library
 			
 			local NewToggle = Instance.new("TextButton")
 			NewToggle.Name = "NewToggle"
-			NewToggle.FontFace = menu_font
+			NewToggle.Font = Enum.Font.Code
 			NewToggle.Text = ""
 			NewToggle.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewToggle.TextSize = 7
@@ -1466,7 +1466,7 @@ do -- Library
 
 			local Title = Library:NewInstance("TextLabel", Toggle.Risk)
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Toggle.Name
 			Title.TextColor3 = Toggle.Risk and Library.Accent or Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -1562,7 +1562,7 @@ do -- Library
 
 				local Value = Instance.new("TextLabel")
 				Value.Name = "Value"
-				Value.FontFace = menu_font
+				Value.Font = Enum.Font.Code
 				Value.Text = "MB2"
 				Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 				Value.TextSize = Library.FSize
@@ -1595,7 +1595,7 @@ do -- Library
 				Hold.BorderSizePixel = 0
 				Hold.Size = UDim2.new(1, 0, 0.333000004, 0)
 				Hold.ZIndex = 2
-				Hold.FontFace = menu_font
+				Hold.Font = Enum.Font.Code
 				Hold.Text = "Hold"
 				Hold.TextColor3 = Keybind.Mode == "Hold" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 				Hold.TextSize = Library.FSize
@@ -1610,7 +1610,7 @@ do -- Library
 				Toggle.Position = UDim2.new(0, 0, 0.333000004, 0)
 				Toggle.Size = UDim2.new(1, 0, 0.333000004, 0)
 				Toggle.ZIndex = 2
-				Toggle.FontFace = menu_font
+				Toggle.Font = Enum.Font.Code
 				Toggle.Text = "Toggle"
 				Toggle.TextColor3 = Keybind.Mode == "Toggle" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 				Toggle.TextSize = Library.FSize
@@ -1625,7 +1625,7 @@ do -- Library
 				Always.Position = UDim2.new(0, 0, 0.666999996, 0)
 				Always.Size = UDim2.new(1, 0, 0.333000004, 0)
 				Always.ZIndex = 2
-				Always.FontFace = menu_font
+				Always.Font = Enum.Font.Code
 				Always.Text = "Always"
 				Always.TextColor3 = Keybind.Mode == "Always" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 				Always.TextSize = Library.FSize
@@ -1946,7 +1946,7 @@ do -- Library
 			
 			local NewSlider = Instance.new("TextButton")
 			NewSlider.Name = "NewSlider"
-			NewSlider.FontFace = menu_font
+			NewSlider.Font = Enum.Font.Code
 			NewSlider.Text = ""
 			NewSlider.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewSlider.TextSize = 7
@@ -2012,7 +2012,7 @@ do -- Library
 
 			local Title = Instance.new("TextLabel")
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Slider.Name
 			Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -2027,7 +2027,7 @@ do -- Library
 
 			local Value = Instance.new("TextLabel")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = "100"
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Value.TextSize = Library.FSize
@@ -2150,7 +2150,7 @@ do -- Library
 			
 			local NewList = Instance.new("TextButton")
 			NewList.Name = "NewList"
-			NewList.FontFace = menu_font
+			NewList.Font = Enum.Font.Code
 			NewList.Text = ""
 			NewList.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewList.TextSize = 7
@@ -2194,7 +2194,7 @@ do -- Library
 
 			local Value = Instance.new("TextLabel")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = ""
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Value.TextSize = Library.FSize
@@ -2255,7 +2255,7 @@ do -- Library
 
 			local Title = Instance.new("TextLabel")
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Dropdown.Name
 			Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -2356,7 +2356,7 @@ do -- Library
 					
 					local NewOption = Instance.new("TextButton")
 					NewOption.Name = "NewOption"
-					NewOption.FontFace = menu_font
+					NewOption.Font = Enum.Font.Code
 					NewOption.Text = ""
 					NewOption.TextColor3 = Color3.fromRGB(0, 0, 0)
 					NewOption.TextSize = 7
@@ -2367,7 +2367,7 @@ do -- Library
 
 					local Value1 = Instance.new("TextLabel")
 					Value1.Name = "Value"
-					Value1.FontFace = menu_font
+					Value1.Font = Enum.Font.Code
 					Value1.Text = option
 					Value1.TextColor3 = Color3.fromRGB(200, 200, 200)
 					Value1.TextSize = Library.FSize
@@ -2545,7 +2545,7 @@ do -- Library
 			
 			local NewColor = Instance.new("TextButton")
 			NewColor.Name = "NewColor"
-			NewColor.FontFace = menu_font
+			NewColor.Font = Enum.Font.Code
 			NewColor.Text = ""
 			NewColor.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewColor.TextSize = 7
@@ -2559,7 +2559,7 @@ do -- Library
 
 			local Title = Instance.new("TextLabel")
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Colorpicker.Name
 			Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -2694,7 +2694,7 @@ do -- Library
 			
 			local NewBind = Instance.new("TextButton")
 			NewBind.Name = "NewBind"
-			NewBind.FontFace = menu_font
+			NewBind.Font = Enum.Font.Code
 			NewBind.Text = ""
 			NewBind.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewBind.TextSize = 7
@@ -2735,7 +2735,7 @@ do -- Library
 
 			local Value = Instance.new("TextLabel")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = "MB2"
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Value.TextSize = Library.FSize
@@ -2752,7 +2752,7 @@ do -- Library
 
 			local Title = Instance.new("TextLabel")
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Keybind.Name
 			Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -2783,7 +2783,7 @@ do -- Library
 			Hold.BorderSizePixel = 0
 			Hold.Size = UDim2.new(1, 0, 0.333000004, 0)
 			Hold.ZIndex = 2
-			Hold.FontFace = menu_font
+			Hold.Font = Enum.Font.Code
 			Hold.Text = "Hold"
 			Hold.TextColor3 = Keybind.Mode == "Hold" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 			Hold.TextSize = Library.FSize
@@ -2798,7 +2798,7 @@ do -- Library
 			Toggle.Position = UDim2.new(0, 0, 0.333000004, 0)
 			Toggle.Size = UDim2.new(1, 0, 0.333000004, 0)
 			Toggle.ZIndex = 2
-			Toggle.FontFace = menu_font
+			Toggle.Font = Enum.Font.Code
 			Toggle.Text = "Toggle"
 			Toggle.TextColor3 = Keybind.Mode == "Toggle" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 			Toggle.TextSize = Library.FSize
@@ -2813,7 +2813,7 @@ do -- Library
 			Always.Position = UDim2.new(0, 0, 0.666999996, 0)
 			Always.Size = UDim2.new(1, 0, 0.333000004, 0)
 			Always.ZIndex = 2
-			Always.FontFace = menu_font
+			Always.Font = Enum.Font.Code
 			Always.Text = "Always"
 			Always.TextColor3 = Keybind.Mode == "Always" and Color3.fromRGB(200,200,200) or Color3.fromRGB(145,145,145)
 			Always.TextSize = Library.FSize
@@ -3056,7 +3056,7 @@ do -- Library
 			
 			local NewBox = Instance.new("TextButton")
 			NewBox.Name = "NewBox"
-			NewBox.FontFace = menu_font
+			NewBox.Font = Enum.Font.Code
 			NewBox.Text = ""
 			NewBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewBox.TextSize = 7
@@ -3098,7 +3098,7 @@ do -- Library
 
 			local Value = Instance.new("TextBox")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = Textbox.State
 			Value.PlaceholderText = Textbox.Placeholder
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
@@ -3120,7 +3120,7 @@ do -- Library
 
 			local Title = Instance.new("TextLabel")
 			Title.Name = "Title"
-			Title.FontFace = menu_font
+			Title.Font = Enum.Font.Code
 			Title.Text = Textbox.Name
 			Title.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Title.TextSize = Library.FSize
@@ -3168,7 +3168,7 @@ do -- Library
 			
 			local NewButton = Instance.new("TextButton")
 			NewButton.Name = "NewButton"
-			NewButton.FontFace = menu_font
+			NewButton.Font = Enum.Font.Code
 			NewButton.Text = ""
 			NewButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewButton.TextSize = 7
@@ -3206,7 +3206,7 @@ do -- Library
 
 			local Value = Instance.new("TextLabel")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = Button.Name
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Value.TextSize = Library.FSize
@@ -3268,7 +3268,7 @@ do -- Library
 
 			local SectionName = Instance.new("TextLabel")
 			SectionName.Name = "SectionName"
-			SectionName.FontFace = menu_font
+			SectionName.Font = Enum.Font.Code
 			SectionName.Text = "Player List"
 			SectionName.TextColor3 = Color3.fromRGB(200, 200, 200)
 			SectionName.TextSize = Library.FSize
@@ -3317,7 +3317,7 @@ do -- Library
 
 			local PlayerName1 = Instance.new("TextLabel")
 			PlayerName1.Name = "PlayerName"
-			PlayerName1.FontFace = menu_font
+			PlayerName1.Font = Enum.Font.Code
 			PlayerName1.Text = "Select a Player."
 			PlayerName1.TextColor3 = Color3.fromRGB(200, 200, 200)
 			PlayerName1.TextSize = Library.FSize
@@ -3334,7 +3334,7 @@ do -- Library
 
 			local Priority = Instance.new("TextButton")
 			Priority.Name = "Priority"
-			Priority.FontFace = menu_font
+			Priority.Font = Enum.Font.Code
 			Priority.Text = ""
 			Priority.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Priority.TextSize = 7
@@ -3363,7 +3363,7 @@ do -- Library
 
 			local PriorityLabel = Instance.new("TextLabel")
 			PriorityLabel.Name = "PriorityLabel"
-			PriorityLabel.FontFace = menu_font
+			PriorityLabel.Font = Enum.Font.Code
 			PriorityLabel.Text = "Prioritize"
 			PriorityLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
 			PriorityLabel.TextSize = Library.FSize
@@ -3379,7 +3379,7 @@ do -- Library
 
 			local Friend = Instance.new("TextButton")
 			Friend.Name = "Friend"
-			Friend.FontFace = menu_font
+			Friend.Font = Enum.Font.Code
 			Friend.Text = ""
 			Friend.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Friend.TextSize = 7
@@ -3408,7 +3408,7 @@ do -- Library
 
 			local FriendLabel = Instance.new("TextLabel")
 			FriendLabel.Name = "FriendLabel"
-			FriendLabel.FontFace = menu_font
+			FriendLabel.Font = Enum.Font.Code
 			FriendLabel.Text = "Friendly"
 			FriendLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
 			FriendLabel.TextSize = Library.FSize
@@ -3455,7 +3455,7 @@ do -- Library
 
 					local NewPlayer1 = Instance.new("TextButton")
 					NewPlayer1.Name = "NewPlayer"
-					NewPlayer1.FontFace = menu_font
+					NewPlayer1.Font = Enum.Font.Code
 					NewPlayer1.Text = ""
 					NewPlayer1.TextColor3 = Color3.fromRGB(0, 0, 0)
 					NewPlayer1.TextSize = 7
@@ -3466,7 +3466,7 @@ do -- Library
 
 					local PlayerName = Instance.new("TextLabel")
 					PlayerName.Name = "PlayerName"
-					PlayerName.FontFace = menu_font
+					PlayerName.Font = Enum.Font.Code
 					PlayerName.Text = option.Name
 					PlayerName.TextColor3 = Color3.fromRGB(200, 200, 200)
 					PlayerName.TextSize = Library.FSize
@@ -3482,7 +3482,7 @@ do -- Library
 
 					local PlayerStatus = Instance.new("TextLabel")
 					PlayerStatus.Name = "PlayerStatus"
-					PlayerStatus.FontFace = menu_font
+					PlayerStatus.Font = Enum.Font.Code
 					PlayerStatus.Text = option == LocalPlayer and "Local Player" or table.find(Library.Friends, option) and "Friendly" or table.find(Library.Priorities, option) and "Priority" or "None"
 					PlayerStatus.TextColor3 = option == LocalPlayer and Color3.fromRGB(0, 170, 255) or table.find(Library.Friends, option) and Color3.fromRGB(0,255,0) or table.find(Library.Priorities, option) and Color3.fromRGB(255,0,0) or Color3.fromRGB(200,200,200)
 					PlayerStatus.TextSize = Library.FSize
@@ -3597,7 +3597,7 @@ do -- Library
 			
 			local NewButton = Instance.new("TextButton")
 			NewButton.Name = "NewButton"
-			NewButton.FontFace = menu_font
+			NewButton.Font = Enum.Font.Code
 			NewButton.Text = ""
 			NewButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			NewButton.TextSize = 7
@@ -3611,7 +3611,7 @@ do -- Library
 
 			local Value = Instance.new("TextLabel")
 			Value.Name = "Value"
-			Value.FontFace = menu_font
+			Value.Font = Enum.Font.Code
 			Value.Text = Label.Name
 			Value.TextColor3 = Color3.fromRGB(200, 200, 200)
 			Value.TextSize = Library.FSize
