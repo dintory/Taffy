@@ -10,7 +10,7 @@ local Tick = tick()
 -- Custom Fonts
 do 
 	-- 
-	writefile("smallest_pixel.ttf",game:HttpGet("https://github.com/dintory/Taffy/blob/main/IBMPlexMono-Regular.ttf"))
+	writefile("smallest_pixel.ttf",game:HttpGet("https://github.com/dintory/Taffy/blob/main/Inconsolata_Expanded-Regular.ttf"))
 	-- 
 	local smallest_pixel = {
 		name = "SmallestPixel7",
